@@ -16,5 +16,6 @@ public class JedisDemo {
         System.out.println(jedis.ping());
         jedis.set("k1","j1");
         System.out.println(jedis.get("k1"));
+        System.out.println(jedis.get("k1"));
     }
 }
